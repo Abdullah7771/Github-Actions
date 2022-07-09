@@ -2,24 +2,13 @@ name: Try powershell
 on: push
 
 jobs:
-  pester-test:
-    name: Pester test 
+   build:
+    name: Powershell Commands
     runs-on: ubuntu-latest 
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3 
-      - name: Perform a Pester test from the command-line
-        shell: pwsh
-        run: Test-Path resultsfile.log | Should -Be $false
-      - name: Perform a Pester test from the Tests.ps1 file
-        shell: pwsh
-        run: |
-          Invoke-Pester Unit.Tests.ps1 -Passthru
-      - name: Install from PSGallery
-        shell: pwsh
-        run: |
-          Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module SqlServer, PSScriptAnalyzer  
+        
       - name: Build
         shell: pwsh
         run: |
