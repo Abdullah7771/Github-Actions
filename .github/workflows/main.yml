@@ -46,4 +46,8 @@ jobs:
               Get-Module Universal -ListAvailable
             shell: pwsh
       
+          - name: Build
+           shell: pwsh
+           run: |
+              .\build.ps1
     
