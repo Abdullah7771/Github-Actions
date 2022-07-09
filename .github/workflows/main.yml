@@ -35,6 +35,4 @@ jobs:
          Install-Module SqlServer, PSScriptAnalyzer -ErrorAction Stop
          
       
-      - name: Gethelp
-         run:|
-             ./build.ps1
+    
