@@ -1,5 +1,4 @@
 echo "Hello"
 get-help
-Get-Command
-history
+Get-Command Get-AppLockerPolicy
 clear
