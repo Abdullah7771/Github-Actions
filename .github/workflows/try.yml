@@ -20,8 +20,7 @@ jobs:
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module SqlServer, PSScriptAnalyzer  
-      
-          - name: Build
-           shell: pwsh
-           run: |
+      - name: Build
+        shell: pwsh
+        run: |
               .\build.ps1
