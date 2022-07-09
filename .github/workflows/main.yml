@@ -34,5 +34,16 @@ jobs:
          Set-PSRepository PSGallery -InstallationPolicy Trusted
          Install-Module SqlServer, PSScriptAnalyzer -ErrorAction Stop
          
+     
+         - name: Run Script
+         runs-on: ubuntu-latest
+         steps:
+          - uses: actions/checkout@v1
+          - name: Script
+            run: |
+              Set-PSRepository PSGallery -InstallationPolicy Trusted
+              Install-Module Universal 
+              Get-Module Universal -ListAvailable
+            shell: pwsh
       
     
