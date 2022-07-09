@@ -17,4 +17,9 @@ https://github.com/Abdullah7771/Github-Actions/blob/main/.github/workflows/main.
 
 5.Run Script
 
-6.Build from a file containing pws commands
+
+Basic commands of powershell :
+https://github.com/Abdullah7771/Github-Actions/blob/main/.github/workflows/try.yml
+
+
+1. Build from a file containing pws commands
