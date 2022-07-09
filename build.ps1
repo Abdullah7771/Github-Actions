@@ -5,5 +5,5 @@ Get-Command -Type Cmdlet | Sort-Object -Property Noun | Format-Table -GroupBy No
 Get-Command -Module Microsoft.PowerShell.Security, Microsoft.PowerShell.Utility
  git --version
  java --version
- $env:ComputerName
+
 
