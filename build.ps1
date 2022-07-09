@@ -1,4 +1,5 @@
 echo "Hello"
-get-help 
+get-help
+Get-Command
 history
 clear
