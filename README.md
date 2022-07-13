@@ -23,7 +23,7 @@ https://github.com/Abdullah7771/Github-Actions/blob/main/.github/workflows/main.
 ![image](https://user-images.githubusercontent.com/65004459/178793810-763bed9c-50f7-4224-bb52-0cee7d00a6d1.png)
 
 
-2.Perform a Pester test from the Tests.ps1 file
+2.Perform a Pester test from the Unit.Tests.ps1 file
 
 
 
